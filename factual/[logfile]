@@ -1,0 +1,28 @@
+PHP verison v5+                         Pass
+No classname conflicts                  Pass
+Parse INI File Function                 Pass
+SPL is loaded                           Pass
+curl is loaded                          Pass
+Creating Query object                   Pass
+Setting query parameter                 Pass
+API Connection                          Pass
+Limit/Filter/Sort                       Pass
+Unicode Filter                          Fail
+Punctuation                             Pass
+Quotes Test                             Pass
+'In' Filter                             Pass
+Multi Filter                            Pass
+Geo Search                              Pass
+Multi Country Search                    Pass
+Response URL                            Pass
+Request Table Name                      Pass
+Response Headers                        Pass
+Response Code                           Pass
+Total Row Count                         Pass
+Submit Test                             Pass	US Sandbox OK
+FactualTest::testReverseGeocode         Fail	 YQL Error on SELECT * from geo.placefinder WHERE text="37.425674,-122.143895" AND gflags="R" AND flags="G": HTTP/1.0 400 Bad Request
+Reverse Geocoder                        Fail
+Creating Query object                   Pass
+Resolve Endpoint                        Pass
+Crosswalk Endpoint                      Pass
+FactualTest::testSchema                 Fail	Requested resource could not be found.
